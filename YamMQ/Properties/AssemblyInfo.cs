@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("YamMQ")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Great American Insurance Group")]
+[assembly: AssemblyCompany("Timothy M. Stepanski")]
 [assembly: AssemblyProduct("YamMQ")]
-[assembly: AssemblyCopyright("Copyright © Great American Insurance Group 2016")]
+[assembly: AssemblyCopyright("Copyright © Timothy M. Stepanski 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

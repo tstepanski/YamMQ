@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YamMQ.General", "YamMQ.Gene
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YamMQ.Client", "YamMQ.Client\YamMQ.Client.csproj", "{F5742AF7-191F-4336-8790-D039CA090168}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YamMQ.Api", "YamMQ.Api\YamMQ.Api.csproj", "{19EE965C-7010-49DD-BB70-04B50869A8C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YamMQ.Services", "YamMQ.Services\YamMQ.Services.csproj", "{A3881E2C-E909-4C71-84BA-CA6F23EBA574}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{F5742AF7-191F-4336-8790-D039CA090168}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5742AF7-191F-4336-8790-D039CA090168}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5742AF7-191F-4336-8790-D039CA090168}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19EE965C-7010-49DD-BB70-04B50869A8C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19EE965C-7010-49DD-BB70-04B50869A8C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19EE965C-7010-49DD-BB70-04B50869A8C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19EE965C-7010-49DD-BB70-04B50869A8C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3881E2C-E909-4C71-84BA-CA6F23EBA574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3881E2C-E909-4C71-84BA-CA6F23EBA574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3881E2C-E909-4C71-84BA-CA6F23EBA574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3881E2C-E909-4C71-84BA-CA6F23EBA574}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

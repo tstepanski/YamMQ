@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "YamMQ.Api", "YamMQ.Api\YamMQ.Api.xproj", "{0D62A4A2-2531-4719-8020-0694AC0C0E23}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YamMQ.General", "YamMQ.General\YamMQ.General.csproj", "{5CC5E87E-31FE-4A14-9775-4674BA574029}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "YamMQ.General", "YamMQ.General\YamMQ.General.xproj", "{BD043EB9-5337-40E0-91A8-59DC396D1D91}"
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "YamMQ.Client", "YamMQ.Client\YamMQ.Client.xproj", "{E72C2A49-0E99-4A47-9DA2-43B190A1DD97}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YamMQ.Client", "YamMQ.Client\YamMQ.Client.csproj", "{F5742AF7-191F-4336-8790-D039CA090168}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0D62A4A2-2531-4719-8020-0694AC0C0E23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0D62A4A2-2531-4719-8020-0694AC0C0E23}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0D62A4A2-2531-4719-8020-0694AC0C0E23}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0D62A4A2-2531-4719-8020-0694AC0C0E23}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BD043EB9-5337-40E0-91A8-59DC396D1D91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BD043EB9-5337-40E0-91A8-59DC396D1D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BD043EB9-5337-40E0-91A8-59DC396D1D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BD043EB9-5337-40E0-91A8-59DC396D1D91}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E72C2A49-0E99-4A47-9DA2-43B190A1DD97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E72C2A49-0E99-4A47-9DA2-43B190A1DD97}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E72C2A49-0E99-4A47-9DA2-43B190A1DD97}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E72C2A49-0E99-4A47-9DA2-43B190A1DD97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CC5E87E-31FE-4A14-9775-4674BA574029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC5E87E-31FE-4A14-9775-4674BA574029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC5E87E-31FE-4A14-9775-4674BA574029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC5E87E-31FE-4A14-9775-4674BA574029}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5742AF7-191F-4336-8790-D039CA090168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5742AF7-191F-4336-8790-D039CA090168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5742AF7-191F-4336-8790-D039CA090168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5742AF7-191F-4336-8790-D039CA090168}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YamMQ.Api", "YamMQ.Api\YamM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YamMQ.Services", "YamMQ.Services\YamMQ.Services.csproj", "{A3881E2C-E909-4C71-84BA-CA6F23EBA574}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YamMQ.TestPublishApplication", "YamMQ.TestPublishApplication\YamMQ.TestPublishApplication.csproj", "{BC77084C-96B2-4C8A-93AE-FD05A7E80A2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YamMQ.SimpleClient", "YamMQ.SimpleClient\YamMQ.SimpleClient.csproj", "{50B192B7-6727-46B5-A6D1-9101EC188565}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SimpleYamMQSQLDB", "SimpleYamMQSQLDB\SimpleYamMQSQLDB.sqlproj", "{70AE56CD-FC5E-4D69-A213-B144ECD74A05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +39,20 @@ Global
 		{A3881E2C-E909-4C71-84BA-CA6F23EBA574}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3881E2C-E909-4C71-84BA-CA6F23EBA574}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3881E2C-E909-4C71-84BA-CA6F23EBA574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC77084C-96B2-4C8A-93AE-FD05A7E80A2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC77084C-96B2-4C8A-93AE-FD05A7E80A2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC77084C-96B2-4C8A-93AE-FD05A7E80A2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC77084C-96B2-4C8A-93AE-FD05A7E80A2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50B192B7-6727-46B5-A6D1-9101EC188565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50B192B7-6727-46B5-A6D1-9101EC188565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50B192B7-6727-46B5-A6D1-9101EC188565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50B192B7-6727-46B5-A6D1-9101EC188565}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70AE56CD-FC5E-4D69-A213-B144ECD74A05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70AE56CD-FC5E-4D69-A213-B144ECD74A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70AE56CD-FC5E-4D69-A213-B144ECD74A05}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{70AE56CD-FC5E-4D69-A213-B144ECD74A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70AE56CD-FC5E-4D69-A213-B144ECD74A05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70AE56CD-FC5E-4D69-A213-B144ECD74A05}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

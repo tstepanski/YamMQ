@@ -2,6 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 using System.Web.Http;
+using YamMQ.Api.Helpers;
 using YamMQ.Services;
 
 namespace YamMQ.Api.Controllers
@@ -16,7 +17,8 @@ namespace YamMQ.Api.Controllers
             _messageService = messageService;
         }
 
-        public Task<Guid> CreateMessage([FromBody] string serializedMessage, CancellationToken cancellationToken)
+        [HttpPost, Route("Publish")]
+        public Task<Guid> CreateMessage([RawBody] string serializedMessage, CancellationToken cancellationToken)
         {
             return _messageService.CreateMessage(serializedMessage, cancellationToken);
         }

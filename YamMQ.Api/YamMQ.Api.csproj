@@ -104,10 +104,13 @@
   <ItemGroup>
     <Compile Include="ApiModule.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="Controllers\MessageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\RawBodyParameterBinding.cs" />
+    <Compile Include="Helpers\EmptyTask.cs" />
+    <Compile Include="Helpers\RawBodyAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
